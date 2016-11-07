@@ -37,8 +37,5 @@ console.log(scrambledWords);
 phoneNumber.reverse();
 console.log(phoneNumber);
 
-orderQueue.shift();
-console.log(orderQueue);
-
-var nextOrder = shifted;
-
+var nextOrder = orderQueue.shift();
+console.log(nextOrder, 'nextOrder');
