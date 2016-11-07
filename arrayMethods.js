@@ -49,3 +49,11 @@ console.log(notFruit);
 
 gemBox.splice(5,7, 'Sapphire');
 console.log(gemBox);
+
+upToTen.splice(2);
+
+  for (var i = upToTen.length+1; i <=10 ; i++) {
+    console.log(i);
+    upToTen.push(i);
+  }
+console.log(upToTen);
