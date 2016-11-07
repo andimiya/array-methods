@@ -28,3 +28,5 @@ for (var i = genericNumberArray.length + 1; i <= 10; i++) {
 }
 console.log(genericNumberArray);
 
+var popResult = colors.pop();
+console.log(popResult);
