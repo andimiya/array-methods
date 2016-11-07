@@ -43,3 +43,9 @@ console.log(nextOrder, 'nextOrder');
 mixedNums.sort();
 mixedWords.sort();
 
+var notFruit = fruitCollection.splice(1,3);
+console.log(fruitCollection);
+console.log(notFruit);
+
+gemBox.splice(5,7, 'Sapphire');
+console.log(gemBox);
