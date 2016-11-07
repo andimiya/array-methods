@@ -39,3 +39,7 @@ console.log(phoneNumber);
 
 var nextOrder = orderQueue.shift();
 console.log(nextOrder, 'nextOrder');
+
+mixedNums.sort();
+mixedWords.sort();
+
