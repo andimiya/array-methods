@@ -30,3 +30,9 @@ console.log(genericNumberArray);
 
 var popResult = colors.pop();
 console.log(popResult);
+
+scrambledWords.reverse();
+console.log(scrambledWords);
+
+phoneNumber.reverse();
+console.log(phoneNumber);
