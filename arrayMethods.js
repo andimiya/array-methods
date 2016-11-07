@@ -62,3 +62,9 @@ console.log(brownOnly);
 
 var orderedValuesNewLength = orderedValues.unshift(1,2,3);
 console.log(orderedValues);
+
+var randomThingsArray = genericNumberArray.concat(colors);
+console.log(randomThingsArray);
+
+var updatedOrders = orderQueue.concat({takeOut:'fish'}, {takeOut: 'cake'});
+console.log(updatedOrders);
